@@ -50,6 +50,7 @@ function create_menu(basepath)
 			'<li><a href="'+base+'general/helpers.html">Helpers</a></li>' +
 			'<li><a href="'+base+'general/libraries.html">Using CodeIgniter Libraries</a></li>' +
 			'<li><a href="'+base+'general/creating_libraries.html">Creating Your Own Libraries</a></li>' +
+            '<li><a href="'+base+'general/sparks.html">Install Third Party Libraries (Sparks)</a></li>' +
 			'<li><a href="'+base+'general/drivers.html">Using CodeIgniter Drivers</a></li>' +
 			'<li><a href="'+base+'general/creating_drivers.html">Creating Your Own Drivers</a></li>' +
 			'<li><a href="'+base+'general/core_classes.html">Creating Core Classes</a></li>' +

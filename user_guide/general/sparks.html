@@ -3,7 +3,7 @@
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Using CodeIgniter Drivers : CodeIgniter User Guide</title>
+<title>Sparks : CodeIgniter User Guide</title>
 
 <style type='text/css' media='all'>@import url('../userguide.css');</style>
 <link rel='stylesheet' type='text/css' media='all' href='../userguide.css' />
@@ -42,7 +42,7 @@
 <td id="breadcrumb">
 <a href="http://codeigniter.com/">CodeIgniter Home</a> &nbsp;&#8250;&nbsp;
 <a href="../index.html">User Guide Home</a> &nbsp;&#8250;&nbsp;
-Using CodeIgniter Drivers
+Install Third Party Libraries (Sparks)
 </td>
 <td id="searchbox"><form method="get" action="http://www.google.com/search"><input type="hidden" name="as_sitesearch" id="as_sitesearch" value="codeigniter.com/user_guide/" />Search User Guide&nbsp; <input type="text" class="input" style="width:200px;" name="q" id="q" size="31" maxlength="255" value="" />&nbsp;<input type="submit" class="submit" name="sa" value="Go" /></form></td>
 </tr>
@@ -55,47 +55,29 @@ Using CodeIgniter Drivers
 <!-- START CONTENT -->
 <div id="content">
 
-<h1>Using CodeIgniter Drivers</h1>
+<h1>Install Third Party Libraries (Sparks)</h1>
+
+<p>
+    Placeholder
+</p>
+
+<h2>Overview</h2>
+
+<p>Placeholder</p>
+
+<code>/* code */</code>
 
 
-<p>Drivers are a special type of Library that has a parent class and any number of potential child classes.  Child classes have access to the parent class, but not their siblings.  Drivers provide an elegant syntax  in your <a href="controllers.html">controllers</a> for libraries that benefit from or require being broken down into discrete classes.</p>
-
-<p>Drivers are found in the <dfn>system/libraries</dfn> folder, in their own folder which is identically named to the parent library class.  Also inside that folder is a subfolder named <kbd>drivers</kbd>, which contains all of the possible child class files.</p>
-
-<p>To use a driver you will initialize it within a controller using the following initialization function:</p>
-
-<code>$this->load->driver('<var>class name</var>'); </code>
-
-<p>Where <var>class name</var> is the name of the driver class you want to invoke.  For example, to load a driver named "Some Parent" you would do this:</p>
-
-<code>$this->load->driver('<var>some_parent</var>');</code>
-
-<p>Methods of that class can then be invoked with:</p>
-
-<code>$this->some_parent->some_method();</code>
-
-<p>The child classes, the drivers themselves, can then be called directly through the parent class, without initializing them:</p>
-
-<code>$this->some_parent->child_one->some_method();<br />
-$this->some_parent->child_two->another_method();</code>
-
-<h2>Creating Your Own Drivers</h2>
-
-<p>Please read the section of the user guide that discusses how to <a href="creating_drivers.html">create your own drivers</a>.</p>
-
-
-
-</div>
 <!-- END CONTENT -->
 
 
 <div id="footer">
 <p>
-Previous Topic:&nbsp;&nbsp;<a href="sparks.html">Install Third Party Libraries (Sparks)</a>
+Previous Topic:&nbsp;&nbsp;<a href="creating_libraries.html">Creating Libraries</a>
 &nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;
 <a href="#top">Top of Page</a>&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;
 <a href="../index.html">User Guide Home</a>&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;
-Next Topic:&nbsp;&nbsp;<a href="creating_drivers.html">Creating Drivers</a>
+Next Topic:&nbsp;&nbsp;<a href="drivers.html">Using CodeIgniter Drivers</a>
 </p>
 <p><a href="http://codeigniter.com">CodeIgniter</a> &nbsp;&middot;&nbsp; Copyright &#169; 2006 - 2011 &nbsp;&middot;&nbsp; <a href="http://ellislab.com/">EllisLab, Inc.</a></p>
 </div>
